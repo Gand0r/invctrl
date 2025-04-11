@@ -27,28 +27,33 @@ Pastikan saat install:
   ```python -m venv venv```
 
 - Aktifkan environment:
-  ```
+  
   Windows
-   >> venv\Scripts\activate
   ```
+  venv\Scripts\activate
   ```
+  
   Linux/MacOS
-   >> source venv/bin/activate
+  ```
+  source venv/bin/activate
   ```
   
 ### 2. Install InvCtrl dari PyPI
-```pip install invctrl```
+    ```
+    pip install invctrl
+    ```
 
 ### 3. Jalankan Aplikasi
-```invctrl```
+    ```
+      invctrl
+    ```
 
 Aplikasi berjalan di http://localhost:8000/dashboard
 
 ## 4. Fitur
-```
-- Form permintaan barang
-- Penyimpanan menggunakan TinyDB (NoSQL, ringan, berbasis file)
-- Template HTML dengan Jinja2
-- Routing modular (FastAPI)
-- CLI command siap pakai: invctrl
-```
+
+  - Form permintaan barang
+  - Penyimpanan menggunakan TinyDB (NoSQL, ringan, berbasis file)
+  - Template HTML dengan Jinja2
+  - Routing modular (FastAPI)
+  - CLI command siap pakai: invctrl
