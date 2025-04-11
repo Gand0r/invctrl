@@ -30,8 +30,11 @@ Pastikan saat install:
   ```
   Windows
    >> venv\Scripts\activate
+  ```
+  ```
   Linux/MacOS
-   >> source venv/bin/activate```
+   >> source venv/bin/activate
+  ```
   
 ### Install InvCtrl dari PyPI
 pip install invctrl
