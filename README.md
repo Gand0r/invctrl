@@ -76,7 +76,7 @@ Aplikasi berjalan di http://localhost:8000/dashboard
 
 ---
 
-## SCREESHOOT
+## SCREENSHOOT
 
 ### 1. Tampilan Request Order
 ![External Image](https://github.com/Gand0r/invctrl/blob/fc71fb6bc0267bd7cb314d7eeb587b44c76582f8/img/Tampilan%20RO.PNG)
