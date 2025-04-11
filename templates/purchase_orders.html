@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}Daftar Purchase Order{% endblock %}
+
+{% block content %}
+<section class="content">
+    <div class="container-fluid">
+        <div class="card card-success card-outline">
+            <div class="card-header"><h3 class="card-title">Daftar Purchase Order</h3></div>
+            <div class="card-body p-0">
+                <table class="table table-bordered table-striped">
+					<thead class="thead-dark">
+					<tr>
+						<th>#</th>
+						<th>Nama Barang</th>
+						<th>Jumlah</th>
+						<th>Nama Toko</th>
+						<th>Status</th>
+						<th>Aksi</th>
+					</tr>
+					</thead>
+					<tbody>
+					{% for po in po_data %}
+					<tr>
+						<td>{{ loop.index }}</td>
+						<td>{{ po.nama_barang }}</td>
+						<td>{{ po.jumlah }}</td>
+						<td>{{ po.nama_toko }}</td>
+						<td>{{ po.status }}</td>
+						<td>
+							{% if po.status != "Received" %}
+							<form method="post" action="/stock-in">
+								<input type="hidden" name="nama_barang" value="{{ po.nama_barang }}">
+								<input type="hidden" name="jumlah" value="{{ po.jumlah }}">
+								<input type="hidden" name="index" value="{{ loop.index0 }}">
+								<button class="btn btn-sm btn-primary" type="submit">
+									<i class="fas fa-box-open"></i> Barang Diterima
+								</button>
+							</form>
+							{% else %}
+							<span class="badge badge-success">Selesai</span>
+							{% endif %}
+						</td>
+					</tr>
+					{% endfor %}
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

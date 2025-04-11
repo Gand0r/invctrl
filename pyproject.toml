@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "invctrl"
+version = "0.1.0"
+authors = [
+  { name = "Indra Setiawan", email = "portgash.the.ace@gmail.com" }
+]
+description = "Inventory Control"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Framework :: FastAPI",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "tinydb",
+    "jinja2",
+    "asgiref==3.8.1",
+    "python-multipart==0.0.20",
+    "sqlparse==0.5.0",
+    "telnetlib3==2.0.4",
+    "tzdata==2024.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/portgash/invctrl"
+Issues = "https://github.com/portgash/invctrl/issues"
+
+[project.scripts]
+invctrl = "invctrl.main:run"

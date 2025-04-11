@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block title %}Delivery Order{% endblock %}
+
+{% block content %}
+<section class="content">
+    <div class="container-fluid">
+
+        <div class="card card-warning card-outline">
+            <div class="card-header"><h3 class="card-title">Buat Delivery Order</h3></div>
+            <div class="card-body">
+                {% if request.query_params.get('error') == 'stok_kurang' %}
+                    <div class="alert alert-danger">Stok tidak mencukupi!</div>
+                {% elif request.query_params.get('error') == 'tidak_ada_barang' %}
+                    <div class="alert alert-danger">Barang tidak ditemukan di stok!</div>
+                {% endif %}
+                <form method="post" action="/delivery-order">
+                    <div class="form-group">
+                        <label>Nama Barang</label>
+                        <select name="nama_barang" class="form-control" required>
+                            {% for item in stok %}
+                            <option value="{{ item.nama_barang }}">{{ item.nama_barang }} ({{ item.jumlah }})</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Jumlah</label>
+                        <input type="number" name="jumlah" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Tujuan Pengiriman</label>
+                        <input type="text" name="tujuan" class="form-control" required>
+                    </div>
+                    <button class="btn btn-warning"><i class="fas fa-shipping-fast"></i> Buat DO</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="card card-info card-outline mt-4">
+            <div class="card-header"><h3 class="card-title">Daftar Delivery Order</h3></div>
+            <div class="card-body p-0">
+                <table class="table table-striped table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>#</th>
+                            <th>Nama Barang</th>
+                            <th>Jumlah</th>
+                            <th>Tujuan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in data %}
+                        <tr>
+                            <td>{{ loop.index }}</td>
+                            <td>{{ item.nama_barang }}</td>
+                            <td>{{ item.jumlah }}</td>
+                            <td>{{ item.tujuan }}</td>
+                        </tr>
+                        {% endfor %}
+                        {% if not data %}
+                        <tr><td colspan="4" class="text-center">Belum ada delivery order</td></tr>
+                        {% endif %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</section>
+{% endblock %}
