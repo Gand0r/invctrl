@@ -36,17 +36,19 @@ Pastikan saat install:
    >> source venv/bin/activate
   ```
   
-### Install InvCtrl dari PyPI
-pip install invctrl
+### 2. Install InvCtrl dari PyPI
+```pip install invctrl```
 
-### Jalankan Aplikasi
-invctrl
+### 3. Jalankan Aplikasi
+```invctrl```
 
 Aplikasi berjalan di http://localhost:8000/dashboard
 
-## Fitur
+## 4. Fitur
+```
 - Form permintaan barang
 - Penyimpanan menggunakan TinyDB (NoSQL, ringan, berbasis file)
 - Template HTML dengan Jinja2
 - Routing modular (FastAPI)
 - CLI command siap pakai: invctrl
+```
