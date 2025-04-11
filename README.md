@@ -49,9 +49,22 @@ Pastikan saat install:
   invctrl
   ```
 
+### 4. Install via Github
+```
+git clone https://github.com/Gand0r/invctrl.git
+```
+masuk ke directory
+```
+cd invctrl
+```
+jalankan run_app.bat
+```
+
 Aplikasi berjalan di http://localhost:8000/dashboard
 
+
 ---
+
 
 ## 4. Fitur
 
@@ -60,3 +73,6 @@ Aplikasi berjalan di http://localhost:8000/dashboard
   - Template HTML dengan Jinja2
   - Routing modular (FastAPI)
   - CLI command siap pakai: invctrl
+
+
+## SCREESHOOT
