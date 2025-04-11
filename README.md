@@ -53,11 +53,11 @@ Pastikan saat install:
 ```
 git clone https://github.com/Gand0r/invctrl.git
 ```
-masuk ke directory
+- masuk ke directory
 ```
 cd invctrl
 ```
-jalankan
+- jalankan
 ```
 run_app.bat
 ```
