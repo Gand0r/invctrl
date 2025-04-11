@@ -50,14 +50,16 @@ Pastikan saat install:
   ```
 
 ### 4. Install via Github
+
+- Clone Repository
 ```
 git clone https://github.com/Gand0r/invctrl.git
 ```
-- masuk ke directory
+- Masuk ke directory
 ```
 cd invctrl
 ```
-- jalankan
+- Lalu Jalankan
 ```
 run_app.bat
 ```
