@@ -58,21 +58,18 @@ masuk ke directory
 cd invctrl
 ```
 jalankan run_app.bat
-```
 
 Aplikasi berjalan di http://localhost:8000/dashboard
 
-
 ---
 
-
 ## 4. Fitur
-
   - Form permintaan barang
   - Penyimpanan menggunakan TinyDB (NoSQL, ringan, berbasis file)
   - Template HTML dengan Jinja2
   - Routing modular (FastAPI)
   - CLI command siap pakai: invctrl
 
+---
 
 ## SCREESHOOT
