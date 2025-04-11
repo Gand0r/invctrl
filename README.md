@@ -39,14 +39,15 @@ Pastikan saat install:
   ```
   
 ### 2. Install InvCtrl dari PyPI
-    ```
-    pip install invctrl
-    ```
+  ```
+  pip install invctrl
+  ```
+    
 
 ### 3. Jalankan Aplikasi
-    ```
-      invctrl
-    ```
+  ```
+  invctrl
+  ```
 
 Aplikasi berjalan di http://localhost:8000/dashboard
 
