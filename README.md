@@ -51,6 +51,8 @@ Pastikan saat install:
 
 Aplikasi berjalan di http://localhost:8000/dashboard
 
+---
+
 ## 4. Fitur
 
   - Form permintaan barang
