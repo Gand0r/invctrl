@@ -1,6 +1,6 @@
 # InvCtrl
 
-**InvCtrl** adalah aplikasi web berbasis FastAPI untuk kebutuhan manajemen inventaris seperti permintaan barang dari toko/karyawan, pengelolaan stok, dan tampilan dashboard sederhana.
+**InvCtrl** (Inventory Control) adalah aplikasi web berbasis FastAPI untuk kebutuhan manajemen inventaris seperti permintaan barang dari toko/karyawan, pengelolaan stok, dan tampilan dashboard sederhana.
 
 ---
 
@@ -63,7 +63,7 @@ Aplikasi berjalan di http://localhost:8000/dashboard
 
 ---
 
-## 4. Fitur
+## 5. Fitur
   - Form permintaan barang
   - Penyimpanan menggunakan TinyDB (NoSQL, ringan, berbasis file)
   - Template HTML dengan Jinja2
@@ -73,3 +73,15 @@ Aplikasi berjalan di http://localhost:8000/dashboard
 ---
 
 ## SCREESHOOT
+
+### 1. Tampilan Request Order
+![External Image](https://github.com/Gand0r/invctrl/blob/fc71fb6bc0267bd7cb314d7eeb587b44c76582f8/img/Tampilan%20RO.PNG)
+
+### 2. Tampilan Purchase Order
+![External Image](https://github.com/Gand0r/invctrl/blob/fc71fb6bc0267bd7cb314d7eeb587b44c76582f8/img/Tampilan%20PO.PNG)
+
+### 3. Tampilan Stock Barang
+![External Image](https://github.com/Gand0r/invctrl/blob/fc71fb6bc0267bd7cb314d7eeb587b44c76582f8/img/Tampilan%20Stock.PNG)
+
+### 4. Tampilan Delivery Order
+![External Image](https://github.com/Gand0r/invctrl/blob/fc71fb6bc0267bd7cb314d7eeb587b44c76582f8/img/Tampilan%20DO.PNG)
