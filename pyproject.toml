@@ -30,8 +30,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/portgash/invctrl"
-Issues = "https://github.com/portgash/invctrl/issues"
+Homepage = "https://github.com/gand0r/invctrl"
+Issues = "https://github.com/gand0r/invctrl/issues"
 
 [project.scripts]
 invctrl = "invctrl.main:run"
