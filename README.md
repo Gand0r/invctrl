@@ -21,7 +21,7 @@ Pastikan saat install:
 - Checklist **"Add Python to PATH"**
 - Setelah selesai, cek versi:
   ```bash
-  python --version```
+  python --version
 
 - Buat Virtual Environment
   ```python -m venv venv```
