@@ -57,8 +57,10 @@ masuk ke directory
 ```
 cd invctrl
 ```
-jalankan run_app.bat
-
+jalankan
+```
+run_app.bat
+```
 Aplikasi berjalan di http://localhost:8000/dashboard
 
 ---
