@@ -7,7 +7,7 @@ title: InvCtrl Developer Docs
 
 Dokumentasi pengembangan dan penggunaan InvCtrl — sistem manajemen inventaris berbasis FastAPI & TinyDB.
 
-## 📄 Konten Dokumentasi
+## Dokumentasi
 
 - [Instalasi & Setup]({{ site.baseurl }}/docs/installation)
 - [Fitur & Modul]({{ site.baseurl }}/docs/features)
