@@ -1,14 +1,3 @@
-
----
-
-### 📄 `docs/features.md`
-
-```markdown
----
-layout: default
-title: Fitur
----
-
 # Fitur Utama InvCtrl
 
 - Form permintaan barang
