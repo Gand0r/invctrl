@@ -1,14 +1,12 @@
 title: InvCtrl
 description: Inventory Control System berbasis web (FastAPI)
-baseurl: "/invctrl" # penting, karena repo bukan root
+baseurl: "/invctrl"
 theme: jekyll-theme-cayman
 show_downloads: false
-google_analytics: # bisa diisi kalau mau tracking
+google_analytics:
 
-# Optional: atur author
 author:
   name: Gand0r
   email: portgash.the.ace@gmail.com
 
-# Optional: untuk SEO
 url: "https://gand0r.github.io"
