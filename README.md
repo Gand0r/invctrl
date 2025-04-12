@@ -79,13 +79,13 @@ Aplikasi berjalan di http://localhost:8000/dashboard
 ## SCREENSHOOT
 
 ### 1. Tampilan Request Order
-![External Image](https://raw.githubusercontent.com/Gand0r/invctrl/main/img/Tampilan%20RO.PNG)
+![Tampilan Request Order](https://raw.githubusercontent.com/Gand0r/invctrl/main/img/Tampilan%20RO.PNG)
 
 ### 2. Tampilan Purchase Order
-![External Image](https://raw.githubusercontent.com/Gand0r/invctrl/main/img/Tampilan%20PO.PNG)
+![Tampilan Purchase Order](https://raw.githubusercontent.com/Gand0r/invctrl/main/img/Tampilan%20PO.PNG)
 
 ### 3. Tampilan Stock Barang
-![External Image](https://raw.githubusercontent.com/Gand0r/invctrl/main/img/Tampilan%20Stock.PNG)
+![Tampilan Purchase Order](https://raw.githubusercontent.com/Gand0r/invctrl/main/img/Tampilan%20Stock.PNG)
 
 ### 4. Tampilan Delivery Order
-![External Image](https://raw.githubusercontent.com/Gand0r/invctrl/main/img/Tampilan%20DO.PNG)
+![Tampilan Purchase Order](https://raw.githubusercontent.com/Gand0r/invctrl/main/img/Tampilan%20DO.PNG)
